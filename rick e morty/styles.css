@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+#characters {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0.5em 0;
+    padding: 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/* Adicione isso ao seu styles.css */
+
+.episodes {
+    margin-top: 1em;
+}
+
+.episodes h4 {
+    margin: 0.5em 0 0.2em;
+}
+
+.episodes ul {
+    padding-left: 1em;
+    list-style: square;
+}
+
+/* Adicione isso ao seu styles.css */
+
+#search {
+    text-align: center;
+    margin: 1em 0;
+}
+
+#search-input {
+    padding: 0.5em;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
